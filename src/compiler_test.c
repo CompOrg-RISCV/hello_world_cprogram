@@ -3,11 +3,14 @@
 
 
 int main() {
+    uint32_t number = 20;
 
-    for (uint32_t i = 0; i < 20; i++) {
+    // printf("Input the number of Hello Worlds to print: ");
+    // scanf("%d", &number);
+
+    for (uint32_t i = 0; i < number; i++) {
 
         // printf will be used to validate syscall properly implemented for non-halt syscalls
         printf ("Hello World, %u \n",i+1);
     }
-
 }
