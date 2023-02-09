@@ -18,9 +18,10 @@
   },
   "debugConfigOptions": {
     "stopAtStartup": true,
+    "showDevDebugOutput": false,
     "debuggerRadio": {
-      "1": false,
-      "2": true,
+      "1": true,
+      "2": false,
       "3": false
     },
     "debuggerInput": {
